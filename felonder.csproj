@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="JInt" Version="3.0.1" />
     <PackageReference Include="WTelegramClient" Version="3.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="script.js" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
